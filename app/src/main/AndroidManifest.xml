@@ -15,11 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".EditProfilePage"
-            android:label="@string/title_activity_edit_profile_page"
-            android:theme="@style/AppTheme" >
-        </activity>
+        <activity android:name=".EditProfilePage"/>
+        <activity android:name=".UpperBackDiagram"/>
+        <activity android:name=".LowerBackDiagram"/>
+        <activity android:name=".EditThresholdPage"/>
+        <activity android:name=".CustomizeAlertsPage"/>
     </application>
 
 </manifest>
